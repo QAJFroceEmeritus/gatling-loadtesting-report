@@ -1,0 +1,12 @@
+com/jforce/selenium/config/FFmpegConfig.class
+com/jforce/selenium/service/VideoProgressListener.class
+com/jforce/selenium/service/VideoService$VideoSummary.class
+com/jforce/selenium/model/VideoMetadata$VideoMetadataBuilder.class
+com/jforce/selenium/model/VideoFrame.class
+com/jforce/selenium/service/VideoService.class
+com/jforce/selenium/model/VideoProgress.class
+com/jforce/selenium/model/VideoFrame$VideoFrameBuilder.class
+com/jforce/selenium/service/VideoService$VideoSummary$VideoSummaryBuilder.class
+com/jforce/selenium/model/VideoProgress$VideoProgressBuilder.class
+com/jforce/selenium/model/VideoMetadata.class
+com/jforce/selenium/VideoProcessingApplication.class

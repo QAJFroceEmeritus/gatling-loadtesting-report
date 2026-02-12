@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: video-processing-app
+
+logging:
+  level:
+    com.jforce.selenium: DEBUG
+    net.bramp.ffmpeg: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+
+# FFmpeg configuration (optional - can be overridden via environment variables)
+ffmpeg:
+  path: ${FFMPEG_PATH:/usr/bin/ffmpeg}
+  probe-path: ${FFPROBE_PATH:/usr/bin/ffprobe}
+  timeout: 300 # seconds
+
+# Video processing settings
+video:
+  download:
+    buffer-size: 262144 # 256 KB
+    connect-timeout: 15000 # ms
+    read-timeout: 60000 # ms
+  frames:
+    default-quality: 85
+    default-format: jpg
+  progress:
+    update-interval: 1000 # ms

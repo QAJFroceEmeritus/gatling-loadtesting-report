@@ -28,7 +28,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: studentdashboardsimulation   # 👈 subfolder to publish
+          path: 780-Make-live_for-VIT_student-dasboard   # 👈 subfolder to publish
 
       - uses: actions/deploy-pages@v4
         id: deployment

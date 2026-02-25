@@ -28,7 +28,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: gatling-loadtesting-report   # 👈 subfolder to publish
+          path: gatling-loadtesting-report   # 👈 folder to publish
 
       - uses: actions/deploy-pages@v4
         id: deployment
